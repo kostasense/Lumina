@@ -19,7 +19,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: rgba(134, 134, 134, 0.5);
-    background-image: url("./imagenes/fondo-3.jpg");
+    background-image: url("https://github.com/kostasense/Lumina/blob/main/imagenes/fondo-3.jpg?raw=true");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
