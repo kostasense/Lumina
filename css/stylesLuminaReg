@@ -1,0 +1,146 @@
+#confirmation-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo semitransparente para combinar */
+    margin: 20px auto;
+    max-width: 600px; /* Ancho máximo para centrar el contenido */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+#confirmation-section h1 {
+    font-size: 2.5rem; /* Tamaño de fuente más grande */
+    margin-bottom: 20px;
+    color: rgb(14, 59, 75); /* Color que coincide con tu esquema */
+}
+
+#confirmation-section p {
+    font-size: 1.2rem; /* Tamaño de fuente */
+    margin-bottom: 20px;
+    color: #333; /* Color del texto */
+}
+
+.btn {
+    background-color: #0e3b4b; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    padding: 12px 20px; /* Ajuste de padding */
+    border: none;
+    border-radius: 8px; /* Bordes redondeados */
+    text-decoration: none; /* Sin subrayado */
+    font-size: 1.2rem; /* Tamaño de fuente */
+    transition: background-color 0.3s, transform 0.2s; /* Transición suave */
+}
+
+.btn:hover {
+    background-color: #09738b; /* Color de fondo en hover */
+    transform: scale(1.05); /* Efecto de aumento al pasar el cursor */
+}
+
+/* Estilos generales para el footer */
+#main-footer {
+    background-color: white;
+    padding: 50px 20px;
+    text-align: center;
+    border-top: 2px solid rgba(14, 59, 75, 0.1);
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.footer-logo img {
+    width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.footer-links h3, .footer-social h3 {
+    font-size: 1.5rem;
+    color: #0e3b4b;
+    margin-bottom: 10px;
+}
+
+.footer-links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin: 10px 0;
+}
+
+.footer-links ul li a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #0e3b4b;
+    transition: color 0.3s;
+}
+
+.footer-links ul li a:hover {
+    color: #09738b;
+}
+
+.footer-social a img {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+    transition: transform 0.3s;
+}
+
+.footer-social a img:hover {
+    transform: scale(1.1);
+}
+
+/* Estilos para la parte inferior */
+.footer-bottom {
+    margin-top: 40px;
+    font-size: 0.9rem;
+    color: #0e3b4b;
+    border-top: 1px solid rgba(14, 59, 75, 0.2);
+    padding-top: 10px;
+}
+
+/* Media queries para tablets */
+@media (max-width: 1024px) {
+    #confirmation-section {
+        padding: 30px 15px; /* Ajustar padding para tablets */
+    }
+
+    #confirmation-section h1 {
+        font-size: 2rem; /* Ajustar tamaño de fuente */
+    }
+
+    #confirmation-section p {
+        font-size: 1.1rem; /* Ajustar tamaño de fuente */
+    }
+
+    .btn {
+        font-size: 1rem; /* Ajustar tamaño de botón */
+        padding: 10px 15px; /* Ajustar padding */
+    }
+}
+
+/* Media queries para teléfonos celulares */
+@media (max-width: 768px) {
+    #confirmation-section {
+        padding: 20px 10px; /* Ajustar padding para móviles */
+    }
+
+    #confirmation-section h1 {
+        font-size: 1.5rem; /* Ajustar tamaño de fuente */
+    }
+
+    #confirmation-section p {
+        font-size: 1rem; /* Ajustar tamaño de fuente */
+    }
+
+    .btn {
+        font-size: 1rem; /* Ajustar tamaño de botón */
+        padding: 10px 12px; /* Ajustar padding */
+    }
+}
