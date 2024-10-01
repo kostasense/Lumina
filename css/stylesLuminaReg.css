@@ -63,7 +63,7 @@ body {
     border-radius: 15px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
     max-width: 600px;
-    margin: 200px auto 100px auto;
+    margin: 200px auto auto auto;
     display: flex;
     flex-direction: column;
 }
@@ -105,6 +105,7 @@ body {
     text-align: center;
     border-top: 2px solid rgba(14, 59, 75, 0.1);
     box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 100px;
 }
 
 .footer-content {
