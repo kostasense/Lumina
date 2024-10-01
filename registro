@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/stylesLuminaReg.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Azeret Mono' rel='stylesheet'>
+    <title>Registro Exitoso - Lumina</title>
+</head>
+
+<body>
+
+    <div id="color-back"></div>
+
+    <section id="header-section">
+        <header id="header">
+            <img id="header-img" src="imagenes/LuminaLogo1.png" alt="Lumina Cibersecurity logo">
+            <nav id="nav-bar">
+                <a class="nav-link" href="#us-section">Sobre nosotros</a>
+                <a class="nav-link" href="#video-section">¿Qué es lo que hacemos?</a>
+                <a class="nav-link" href="#contract-section">Contratar</a>
+            </nav>
+        </header>
+    </section>
+
+    <section id="confirmation-section">
+        <h1>¡Gracias por registrarte!</h1>
+        <p>Tu registro ha sido exitoso. Te mantendremos informado sobre nuestras últimas promociones y noticias.</p>
+        <p>Si tienes alguna pregunta, no dudes en <a href="#contact-section">contactarnos</a>.</p>
+        <a href="/" class="btn">Volver a la página principal</a>
+    </section>
+
+    <footer id="main-footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="imagenes/LuminaLogo1.png" alt="Lumina Cibersecurity Logo">
+            </div>
+            <div class="footer-links">
+                <h3>Enlaces útiles</h3>
+                <ul>
+                    <li><a href="#us-section">Sobre nosotros</a></li>
+                    <li><a href="#video-section">¿Qué es lo que hacemos?</a></li>
+                    <li><a href="#contact-section">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h3>Síguenos</h3>
+                <a href="https://www.facebook.com" target="_blank"><img src="imagenes/facebook.png" alt="Facebook Logo"></a>
+                <a href="https://www.twitter.com" target="_blank"><img src="imagenes/twitter.png" alt="Twitter/X Logo"></a>
+                <a href="https://www.instagram.com" target="_blank"><img src="imagenes/instagram.png" alt="Instagram Logo"></a>
+                <a href="https://www.tiktok.com" target="_blank"><img src="imagenes/tiktok.png" alt="TikTok Logo"></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Lumina Cibersecurity. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
